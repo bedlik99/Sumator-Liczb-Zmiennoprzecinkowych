@@ -1,0 +1,170 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Jan/Documents/QuartusVHDL_Projekty/sumator_v1/simulation/modelsim
+Emain_project
+Z1 w1578171850
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/Jan/Documents/QuartusVHDL_Projekty/sumator_v1/main_project.vhd
+Z5 FC:/Users/Jan/Documents/QuartusVHDL_Projekty/sumator_v1/main_project.vhd
+l0
+L5
+VXY4zHJ=N=Zk?oLH[n9oe93
+!s100 3OGJBR66h<>D;Jg0?lUS=2
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1578174671
+!i10b 1
+Z8 !s108 1578174671.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Jan/Documents/QuartusVHDL_Projekty/sumator_v1/main_project.vhd|
+Z10 !s107 C:/Users/Jan/Documents/QuartusVHDL_Projekty/sumator_v1/main_project.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Amain
+R2
+R3
+DEx4 work 12 main_project 0 22 XY4zHJ=N=Zk?oLH[n9oe93
+l68
+L13
+VII^_7eEFza]H=Bk;OZb9^1
+!s100 >?d[WJ^E^Y5UJ=UgkWZfC1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Erozklad
+Z13 w1578084214
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z15 8C:/Users/Jan/Documents/QuartusVHDL_Projekty/sumator_v1/rozklad.vhd
+Z16 FC:/Users/Jan/Documents/QuartusVHDL_Projekty/sumator_v1/rozklad.vhd
+l0
+L7
+Vjmlihm@Yh>K1MQK<Z?:[E2
+!s100 kIONYVZUGOkPBKI?O8PJe2
+R6
+31
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Jan/Documents/QuartusVHDL_Projekty/sumator_v1/rozklad.vhd|
+Z18 !s107 C:/Users/Jan/Documents/QuartusVHDL_Projekty/sumator_v1/rozklad.vhd|
+!i113 1
+R11
+R12
+Amain
+R14
+R2
+R3
+DEx4 work 7 rozklad 0 22 jmlihm@Yh>K1MQK<Z?:[E2
+l19
+L17
+VB>UzH^j1HUA>;0V?9b_ln0
+!s100 JOfi[McQjnbd9QU]FBH<53
+R6
+31
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Esumator_mantys
+Z19 w1578088203
+R14
+R2
+R3
+R0
+Z20 8C:/Users/Jan/Documents/QuartusVHDL_Projekty/sumator_v1/sumator_mantys.vhd
+Z21 FC:/Users/Jan/Documents/QuartusVHDL_Projekty/sumator_v1/sumator_mantys.vhd
+l0
+L6
+V<kknjMc<E4T8hYE:?7>=a1
+!s100 1XSlij1D28hSe?Vkn[H]z3
+R6
+31
+R7
+!i10b 1
+Z22 !s108 1578174670.000000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/Jan/Documents/QuartusVHDL_Projekty/sumator_v1/sumator_mantys.vhd|
+Z24 !s107 C:/Users/Jan/Documents/QuartusVHDL_Projekty/sumator_v1/sumator_mantys.vhd|
+!i113 1
+R11
+R12
+Amain
+R14
+R2
+R3
+DEx4 work 14 sumator_mantys 0 22 <kknjMc<E4T8hYE:?7>=a1
+l19
+L17
+VbBJ:4>6Fbo6kFF=nUEmoe1
+!s100 WBZ@UdeX9Ff56me3CR;mX0
+R6
+31
+R7
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
+Etworzenie_liczby
+Z25 w1578088757
+R2
+R3
+R0
+Z26 8C:/Users/Jan/Documents/QuartusVHDL_Projekty/sumator_v1/tworzenie_liczby.vhd
+Z27 FC:/Users/Jan/Documents/QuartusVHDL_Projekty/sumator_v1/tworzenie_liczby.vhd
+l0
+L5
+Ve?Dgk@Q7DALho^`j9iI_P3
+!s100 N1nFlRg41V696AKMQFZSb1
+R6
+31
+Z28 !s110 1578174672
+!i10b 1
+R8
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/Jan/Documents/QuartusVHDL_Projekty/sumator_v1/tworzenie_liczby.vhd|
+Z30 !s107 C:/Users/Jan/Documents/QuartusVHDL_Projekty/sumator_v1/tworzenie_liczby.vhd|
+!i113 1
+R11
+R12
+Amain
+R2
+R3
+DEx4 work 16 tworzenie_liczby 0 22 e?Dgk@Q7DALho^`j9iI_P3
+l16
+L15
+V2G4^dmUXRR9zg?Mjh>1Uf0
+!s100 bD^U9Me5?I`H[1Sg1?RDa3
+R6
+31
+R28
+!i10b 1
+R8
+R29
+R30
+!i113 1
+R11
+R12

@@ -1,0 +1,48 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+entity main is
+port (
+	liczba1,liczba2 : in std_logic_vector(31 downto 0);
+	 wynik : out std_logic_vector(32 downto 0)
+	
+);
+
+end entity;
+
+architecture main of sumator_mantys is
+-- deklaracja component'ow
+	
+	component rozklad 
+	port (
+	   liczba1,liczba2 : in std_logic_vector(31 downto 0);
+		bit_znaku_wyniku : out std_logic;	
+		exp1, exp2 : out std_logic_vector(7 downto 0);
+		mantys1, mantys2
+	
+	);
+	end component;
+
+
+
+
+
+
+
+
+begin
+
+-- mapowanie portow componentow
+
+
+
+
+
+
+
+
+
+
+end main; 
+

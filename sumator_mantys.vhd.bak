@@ -1,0 +1,47 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
+entity S1 is
+port(
+						A_sum,B_sum : in std_logic_vector(3 downto 0);
+						C_sum : out std_logic_vector(4 downto 0)
+
+);
+end entity;
+
+
+architecture struct of S1 is
+
+begin
+		
+		
+		process(A_sum,B_sum) -- jako argument do processu [sensitive list] nie moze byc podany argument ktory bedzie sie w processie zmieniał - wynikiem bedzie infinity loop
+		
+		variable c_moved, single_new_bit : std_logic; 
+		variable tempA,tempB : std_logic_vector(3  downto 0);
+		
+		begin
+			c_moved := '0';
+			tempA := A_sum;
+			tempB := B_sum;
+		
+		for i in 0 to 3 loop 
+			
+			single_new_bit := tempA(i) xor tempB(i) xor c_moved ;  -- przypisujemy bitowi wartosc xor z 3 bitow czyli defacto dodawania
+			
+			C_sum(i) <= single_new_bit;					-- przypisuje wynikowemu wektorowi i-tego bita
+			
+			c_moved := ( tempA(i) and tempB(i) )  or   ( tempA(i) and c_moved )  or ( c_moved and tempB(i)) ; -- ogarniecie kiedy c_moved = 1 a kiedy c_moved = 0
+--				
+			
+		end loop;
+		C_sum(4) <= c_moved;  -- dopisujemy na najstarszy bit wartosc przesuniecia
+		
+		end process;
+		
+		
+		
+
+end struct;
